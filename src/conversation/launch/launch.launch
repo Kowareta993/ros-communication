@@ -1,0 +1,4 @@
+<launch>
+  <node name="agent1" pkg="conversation" type="agent1.py" output="screen"/>
+  <node name="agent2" pkg="conversation" type="agent2.py" output="screen"/>
+</launch>
